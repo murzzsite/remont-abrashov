@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ремонт квартир и домов под ключ от 15 000 ₽ за м² — Абрашов</title>
+<meta name="description" content="Ремонт квартир и домов под ключ. Три пакета: Эконом от 15 000 ₽, Комфорт от 20 000 ₽, Комфорт+ от 30 000 ₽ за м². Посчитайте смету по своей площади за минуту.">
+<meta name="theme-color" content="#e6dbc7">
+<meta property="og:title" content="Ремонт под ключ от 15 000 ₽ за м² — Абрашов">
+<meta property="og:description" content="Квартиры и дома. Три пакета с ценой за метр и калькулятор сметы.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23062b8a'/%3E%3Cpath d='M32 10 14 54h9l3-8h12l3 8h9L32 10Zm0 17 4 11H28l4-11Z' fill='%23e6dbc7'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;700&family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#smeta">К смете</a>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Абрашов — на главную">
+      <span class="logo__name">Абрашов</span>
+      <span class="logo__sfx">ремонт под ключ</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a class="link" href="#smeta">Смета</a>
+      <a class="link" href="#how">Как проходит</a>
+      <a class="link" href="#faq">Вопросы</a>
+    </nav>
+    <a class="link header__tg" href="https://t.me/abrashofff" target="_blank" rel="noopener">@abrashofff</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu">Меню</button>
+  </div>
+  <div class="menu" id="menu">
+    <a href="#smeta">Смета</a>
+    <a href="#how">Как проходит</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#contact">Заявка</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <div class="hero__row">
+        <div class="hero__side">
+          <p class="hero__lead">Квартиры и дома. Три пакета с ценой за метр: считаете смету сами, за минуту.</p>
+          <a class="btn" href="#smeta">Посчитать смету</a>
+        </div>
+        <h1 class="hero__title display" id="h1">
+          <span class="line"><span>Ремонт под ключ</span></span>
+          <span class="line"><span>от 15&nbsp;000&nbsp;₽ за&nbsp;м²</span></span>
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section calc" id="smeta" aria-labelledby="calc-h">
+    <div class="wrap">
+      <div class="grid calc__head">
+        <h2 class="calc__title display rise" id="calc-h">Смета<br>за минуту</h2>
+        <div class="calc__control rise" style="--i:1">
+          <label class="sr" for="area">Площадь вашего объекта, м²</label>
+          <div class="area">
+            <input id="area" name="area" type="number" inputmode="numeric" min="10" max="500" step="1" value="60" aria-describedby="area-note">
+            <span class="area__unit" aria-hidden="true">м²</span>
+          </div>
+          <input class="range" id="range" type="range" min="20" max="300" step="1" value="60" aria-label="Площадь, м²">
+          <p class="calc__note" id="area-note">Площадь вашего объекта. Итог ориентировочный: точную смету даём после уточнения деталей.</p>
+        </div>
+      </div>
+
+      <div class="plans" id="plans">
+        <div class="plans__labels" aria-hidden="true">
+          <div class="cell">Пакет</div>
+          <div class="cell">Итого по вашей площади</div>
+          <div class="cell">Кому подходит</div>
+          <div class="cell cell--cta">&nbsp;</div>
+        </div>
+
+        <article class="plan rise" style="--i:1" data-plan="eco" data-name="Эконом" data-rate="15000" tabindex="0" aria-label="Пакет Эконом">
+          <div class="cell"><h3 class="plan__name">Эконом</h3><p class="plan__price">15&nbsp;000&nbsp;₽<small>за м²</small></p></div>
+          <div class="cell" data-label="Итого по вашей площади"><p class="plan__total" data-total>900&nbsp;000&nbsp;₽<small>при 60&nbsp;м²</small></p></div>
+          <div class="cell" data-label="Кому подходит"><p class="plan__fit">Нужен аккуратный ремонт с понятным бюджетом: для сдачи, продажи или первого жилья.</p></div>
+          <div class="cell cell--cta"><button class="btn" type="button" data-pick>Заказать расчёт</button></div>
+        </article>
+
+        <article class="plan rise is-on" style="--i:2" data-plan="comf" data-name="Комфорт" data-rate="20000" tabindex="0" aria-label="Пакет Комфорт">
+          <div class="cell"><h3 class="plan__name">Комфорт</h3><p class="plan__price">20&nbsp;000&nbsp;₽<small>за м²</small></p></div>
+          <div class="cell" data-label="Итого по вашей площади"><p class="plan__total" data-total>1&nbsp;200&nbsp;000&nbsp;₽<small>при 60&nbsp;м²</small></p></div>
+          <div class="cell" data-label="Кому подходит"><p class="plan__fit">Ремонт для жизни: материалы среднего класса и продуманная отделка.</p></div>
+          <div class="cell cell--cta"><button class="btn" type="button" data-pick>Заказать расчёт</button></div>
+        </article>
+
+        <article class="plan rise" style="--i:3" data-plan="plus" data-name="Комфорт+" data-rate="30000" tabindex="0" aria-label="Пакет Комфорт плюс">
+          <div class="cell"><h3 class="plan__name">Комфорт+</h3><p class="plan__price">30&nbsp;000&nbsp;₽<small>за м²</small></p></div>
+          <div class="cell" data-label="Итого по вашей площади"><p class="plan__total" data-total>1&nbsp;800&nbsp;000&nbsp;₽<small>при 60&nbsp;м²</small></p></div>
+          <div class="cell" data-label="Кому подходит"><p class="plan__fit">Больше внимания материалам и деталям: квартира или дом, где важен результат выше среднего.</p></div>
+          <div class="cell cell--cta"><button class="btn" type="button" data-pick>Заказать расчёт</button></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="budget" aria-labelledby="ledger-h">
+    <div class="wrap">
+      <div class="grid ledger">
+        <div class="ledger__head">
+          <h2 class="ledger__title display rise" id="ledger-h"><span>Что даёт</span><span>800&nbsp;000&nbsp;₽</span></h2>
+          <p class="ledger__lead rise" style="--i:1">Около 800&nbsp;000&nbsp;₽ — типичный бюджет проекта. Столько квадратных метров он покрывает в каждом пакете.</p>
+        </div>
+        <div class="ledger__rows">
+          <div class="fig rise"><span class="fig__w">53</span><span class="fig__d">,3</span><p class="fig__cap">м² в Эконом по 15&nbsp;000&nbsp;₽ за метр</p></div>
+          <div class="fig rise" style="--i:1"><span class="fig__w">40</span><span class="fig__d"></span><p class="fig__cap">м² в Комфорт по 20&nbsp;000&nbsp;₽ за метр</p></div>
+          <div class="fig rise" style="--i:2"><span class="fig__w">26</span><span class="fig__d">,7</span><p class="fig__cap">м² в Комфорт+ по 30&nbsp;000&nbsp;₽ за метр</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="band" aria-label="Фото интерьера">
+    <figure class="band__fig rise">
+      <img src="assets/modern-living-room-with-stylish-furniture-and.jpg" width="1920" height="1281" alt="Гостиная в квартире с отделкой в тёплых тонах, диван и окно с видом" loading="lazy" decoding="async">
+
+    </figure>
+  </section>
+
+  <section class="section how" id="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <h2 class="how__title display rise" id="how-h">Как проходит ремонт</h2>
+      <ol class="grid steps">
+        <li class="step rise"><p class="step__line">Вы пишете нам.</p><p>В Telegram или через форму: площадь, тип объекта, пожелания.</p></li>
+        <li class="step rise" style="--i:1"><p class="step__line">Мы считаем смету.</p><p>Итог по вашей площади и выбранному пакету.</p></li>
+        <li class="step rise" style="--i:2"><p class="step__line">Вы выбираете пакет.</p><p>Эконом, Комфорт или Комфорт+: уточняем, что входит.</p></li>
+        <li class="step rise" style="--i:3"><p class="step__line">Дальше — ремонт.</p><p>Ведём квартиру или дом под ключ.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="grid faq__grid">
+        <h2 class="faq__title display rise" id="faq-h">Частые вопросы</h2>
+        <div class="faq__text rise" style="--i:1">
+          <p><b>Что значит «под ключ»?</b> Мы ведём ремонт целиком: от черновых работ до чистовой отделки. Вы получаете готовое жильё.</p>
+          <p><b>Сколько стоит ремонт?</b> От 15&nbsp;000&nbsp;₽ за м² в пакете Эконом, от 20&nbsp;000&nbsp;₽ в Комфорте и от 30&nbsp;000&nbsp;₽ в Комфорт+. Типичный проект выходит примерно на 800&nbsp;000&nbsp;₽.</p>
+          <p><b>Чем отличаются пакеты?</b> Классом материалов и отделки: чем выше пакет, тем выше класс. Точный состав работ и материалов уточняем под ваш объект.</p>
+          <p><b>Делаете ремонт домов?</b> Да, и квартир, и домов.</p>
+          <p><b>Что значит «от» в цене?</b> Цена зависит от объекта и состава работ. Окончательная сумма появляется после уточнения деталей.</p>
+          <p><b>Как посчитать мой ремонт?</b> Введите площадь в калькуляторе выше и посмотрите итог по всем трём пакетам. Хотите точнее — напишите нам.</p>
+          <p><b>Что подготовить для расчёта?</b> Достаточно площади и пары слов о том, что вы хотите. План или фото объекта можно прислать ссылкой.</p>
+          <p><b>Как с вами связаться?</b> В Telegram <a class="link" href="https://t.me/abrashofff" target="_blank" rel="noopener">@abrashofff</a>, во ВКонтакте <a class="link" href="https://vk.ru/sergo_abrashov" target="_blank" rel="noopener">vk.ru/sergo_abrashov</a> или через форму на странице.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section trio" aria-label="Этапы ремонта на фото">
+    <div class="wrap">
+      <div class="trio__grid">
+        <figure class="trio__a rise"><img src="assets/kitchen-renovation-project-floors-finished-microwave-in.jpg" width="1920" height="1440" alt="Кухня с кирпичной стеной после ремонта" loading="lazy" decoding="async"><figcaption>Кухня с открытой кирпичной кладкой</figcaption></figure>
+        <figure class="trio__b rise" style="--i:1"><img src="assets/a-paint-roller-with-a-red-handle.jpg" width="1536" height="2048" alt="Малярный валик у стены, наполовину покрашенной" loading="lazy" decoding="async"><figcaption>Покраска стен</figcaption></figure>
+        <figure class="trio__c rise" style="--i:2"><img src="assets/faubourg-marigny-new-orleans-interior-of-recently.jpg" width="1920" height="2560" alt="Кухня-столовая с деревянной столешницей и паркетом" loading="lazy" decoding="async"><figcaption>Кухня-столовая с паркетом</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta on-ink" aria-labelledby="cta-h">
+    <h2 class="cta__q display" id="cta-h"><span class="cta__a">Посчитаем</span><span class="cta__b">ваш ремонт?</span></h2>
+    <div class="cta__mid">
+      <div class="cta__row">
+        <a class="btn btn--inv" href="https://t.me/abrashofff" target="_blank" rel="noopener">Написать в Telegram</a>
+        <span class="cta__or">или</span>
+        <a class="btn btn--inv" href="#contact">Оставить заявку</a>
+      </div>
+      <p class="cta__after">Ответим и посчитаем смету по вашей площади.</p>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="grid contact__grid">
+        <div class="contact__head">
+          <h2 class="contact__title display rise" id="contact-h">Оставьте<br>заявку</h2>
+          <ul class="contact__list rise" style="--i:1">
+            <li><span>Telegram</span><a class="link" href="https://t.me/abrashofff" target="_blank" rel="noopener">@abrashofff</a></li>
+            <li><span>ВКонтакте</span><a class="link" href="https://vk.ru/sergo_abrashov" target="_blank" rel="noopener">vk.ru/sergo_abrashov</a></li>
+          </ul>
+        </div>
+        <form class="form rise" style="--i:1" id="leadForm" novalidate>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-name">Как к вам обращаться</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-phone">Телефон</label>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7" required>
+          </div>
+          <div class="field">
+            <label for="f-comment">Что планируете</label>
+            <textarea id="f-comment" name="comment" placeholder="Площадь, квартира или дом, пожелания"></textarea>
+          </div>
+          <button class="btn" type="submit">Отправить заявку</button>
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь с <a class="link" href="privacy.html">политикой конфиденциальности</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer on-ink">
+  <div class="wrap">
+    <div class="footer__cols">
+      <ul><li>Связь</li><li><a href="https://t.me/abrashofff" target="_blank" rel="noopener">Telegram @abrashofff</a></li><li><a href="https://vk.ru/sergo_abrashov" target="_blank" rel="noopener">ВКонтакте</a></li></ul>
+      <ul><li>Что делаем</li><li>Ремонт квартир под ключ</li><li>Ремонт домов под ключ</li></ul>
+      <ul><li>Цены за метр</li><li>Эконом от 15 000 ₽</li><li>Комфорт от 20 000 ₽</li><li>Комфорт+ от 30 000 ₽</li></ul>
+      <ul><li>Документы</li><li><a href="privacy.html">Политика конфиденциальности</a></li></ul>
+    </div>
+  </div>
+  <div></div>
+  <div class="wrap">
+    <div class="footer__mark" aria-hidden="true">
+      <svg viewBox="0 0 1000 200" preserveAspectRatio="xMidYMax meet"><text x="0" y="190" font-size="260" textLength="1000" lengthAdjust="spacingAndGlyphs">АБРАШОВ</text></svg>
+    </div>
+    <div class="footer__legal">
+      <p class="credits">Фото: <a href="https://commons.wikimedia.org/wiki/File:Modern_living_room_with_stylish_furniture_and_a_view_of_the_outdoors_in_a_cozy_apartment_setting.jpg">гостиная</a>, Shixart1985, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>; <a href="https://wordpress.org/photos/photo/8756a21a02/">валик</a>, Anup Neupane, CC0; <a href="https://commons.wikimedia.org/wiki/File:Kitchen_renovation_project_floors_finished_microwave_in_walls_painted_blinds_in.JPG">кухня</a>, Tomwsulcer, CC0; <a href="https://commons.wikimedia.org/wiki/File:Faubourg_Marigny,_New_Orleans_-_Interior_of_recently_renovated_house_-_04.jpg">кухня-столовая</a>, Infrogmation of New Orleans, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, через Wikimedia Commons и WordPress Photo Directory.</p>
+      
+      <span>© <span id="year">2026</span> Абрашов. Ремонт квартир и домов под ключ.</span>
+      <a class="link" href="privacy.html">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
