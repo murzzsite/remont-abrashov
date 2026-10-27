@@ -344,7 +344,7 @@ button, input, textarea { font: inherit; color: inherit; }
 /* ---------- фото ---------- */
 .band { padding: 0; }
 .band__fig { position: relative; }
-.band__fig img { width: 100%; height: clamp(320px, 52vw, 820px); object-fit: cover; object-position: 50% 60%; }
+.band__fig img { width: 100%; height: auto; }
 figcaption { font-size: 15px; padding: 12px var(--m) 0; color: var(--ink); }
 .trio__grid { --h: clamp(300px, 36vw, 600px); display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(16px, 2vw, 32px); align-items: end; }
 .trio__a { grid-column: 1 / span 6; }
@@ -352,9 +352,9 @@ figcaption { font-size: 15px; padding: 12px var(--m) 0; color: var(--ink); }
 .trio__c { grid-column: 9 / span 4; }
 .trio figure { margin: 0; }
 .trio img { width: 100%; height: var(--h); object-fit: cover; }
-.trio__a img { object-position: 30% 50%; }
-.trio__b img { object-position: 50% 30%; }
-.trio__c img { object-position: 70% 75%; }
+.trio__a img { object-position: 40% 50%; }
+.trio__b img { object-position: 30% 50%; }
+.trio__c img { object-position: 30% 60%; }
 .trio figcaption { padding-inline: 0; }
 .credits { font-size: 13px; max-width: 100ch; }
 .credits a { text-decoration: underline; }
