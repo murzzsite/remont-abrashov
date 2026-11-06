@@ -1,0 +1,38 @@
+{
+  "siteName": "Абрашов",
+  "siteUrl": "https://abrashov-remont.ru",
+  "lang": "ru",
+  "repo": "murzzsite/remont-abrashov",
+  "ref": "3C23RPBAQM",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи от Абрашов",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Абрашов, ремонт под ключ",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "35b2fdb7a88497137ca88ae435552885",
+  "previewSecret": "71533a4865ccefe6",
+  "theme": {
+    "accent": "var(--accent)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "text": "var(--text)",
+    "soft": "var(--muted)",
+    "accent-soft": "color-mix(in srgb, var(--accent) 10%, #ffffff)"
+  }
+}
