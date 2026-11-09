@@ -366,3 +366,10 @@ figcaption { font-size: 15px; padding: 12px var(--m) 0; color: var(--ink); }
 .calc__note, .ledger__lead, .faq__text p { max-width: 62ch; }
 
 .footer .wrap { width: 100%; }
+
+/* ---------- cookie ---------- */
+.cookie { position: fixed; left: var(--m); right: var(--m); bottom: 16px; z-index: 60; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding: 16px 20px; background: var(--ink); color: var(--bg); font-size: 15px; }
+.cookie p { max-width: 60ch; }
+.cookie__btns { display: flex; gap: 12px; flex-wrap: wrap; }
+.cookie .btn { min-height: 44px; padding: 0 20px; font-size: 16px; background: var(--bg); color: var(--ink); }
+.cookie .btn[data-c="min"] { background: transparent; color: var(--bg); outline: 2px solid var(--bg); outline-offset: -2px; }
