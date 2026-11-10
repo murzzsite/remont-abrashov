@@ -70,20 +70,29 @@ const YM_ID = 114111726;
     });
   });
 
-  // Маска телефона
+  // Маска телефона: Backspace удаляет цифры, а не знаки форматирования
+  const fmtPhone = d => {
+    let out = '+7';
+    if (d.length > 1) out += ' (' + d.slice(1, 4);
+    if (d.length >= 4) out += ') ' + d.slice(4, 7);
+    if (d.length >= 7) out += '-' + d.slice(7, 9);
+    if (d.length >= 9) out += '-' + d.slice(9, 11);
+    return out;
+  };
   $$('input[type="tel"]').forEach(input => {
+    let prevDigits = '';
     input.addEventListener('input', e => {
       let v = e.target.value.replace(/\D/g, '');
-      if (!v) { e.target.value = ''; return; }
+      const deleting = (e.inputType || '').startsWith('delete');
+      if (!v) { e.target.value = ''; prevDigits = ''; return; }
       if (v.startsWith('8')) v = '7' + v.slice(1);
       if (!v.startsWith('7')) v = '7' + v;
       v = v.slice(0, 11);
-      let out = '+7';
-      if (v.length > 1) out += ' (' + v.slice(1, 4);
-      if (v.length >= 4) out += ') ' + v.slice(4, 7);
-      if (v.length >= 7) out += '-' + v.slice(7, 9);
-      if (v.length >= 9) out += '-' + v.slice(9, 11);
-      e.target.value = out;
+      // удалили только знак (скобку, пробел, дефис): убираем последнюю цифру
+      if (deleting && v.length >= prevDigits.length) v = v.slice(0, -1);
+      if (v.length <= 1) { e.target.value = ''; prevDigits = ''; return; }
+      e.target.value = fmtPhone(v);
+      prevDigits = v;
     });
   });
 
