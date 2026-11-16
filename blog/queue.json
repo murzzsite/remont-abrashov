@@ -1,25 +1,19 @@
 {
   "site": "https://abrashov-remont.ru",
   "updated": "2026-11-16",
-  "awaiting": [
+  "awaiting": [],
+  "scheduled": [
     {
       "slug": "etapy-remonta-kvartiry-pod-klyuch",
-      "path": "articles/etapy-remonta-kvartiry-pod-klyuch.md",
       "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
-      "description": "Из каких этапов состоит ремонт квартиры под ключ: от демонтажа и инженерных работ до чистовой отделки. Порядок работ, зачем он нужен и где чаще ошибаются.",
-      "reading_time": "3 мин чтения",
-      "preview_url": "https://abrashov-remont.ru/blog/preview/f51ac68b39e6/etapy-remonta-kvartiry-pod-klyuch/"
+      "date": "2026-11-23"
     },
     {
       "slug": "remont-novostroyki-i-vtorichki",
-      "path": "articles/remont-novostroyki-i-vtorichki.md",
       "title": "Ремонт в новостройке и во вторичке: чем отличается объём работ и бюджет",
-      "description": "Чем отличается ремонт в новостройке и во вторичной квартире: объём работ, подготовка, на что смотреть до начала. Как это влияет на смету ремонта под ключ.",
-      "reading_time": "3 мин чтения",
-      "preview_url": "https://abrashov-remont.ru/blog/preview/d0c47ce9e84c/remont-novostroyki-i-vtorichki/"
+      "date": "2026-11-30"
     }
   ],
-  "scheduled": [],
   "published": [
     {
       "slug": "econom-komfort-komfort-plus-kak-vybrat",
