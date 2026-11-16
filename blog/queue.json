@@ -3,14 +3,6 @@
   "updated": "2026-11-16",
   "awaiting": [
     {
-      "slug": "econom-komfort-komfort-plus-kak-vybrat",
-      "path": "articles/econom-komfort-komfort-plus-kak-vybrat.md",
-      "title": "Эконом, Комфорт или Комфорт+: как выбрать пакет ремонта под вашу задачу",
-      "description": "Чем отличаются пакеты ремонта Эконом, Комфорт и Комфорт+, для каких квартир подходит каждый и как выбрать по задаче и бюджету. Примеры расчёта по метру.",
-      "reading_time": "4 мин чтения",
-      "preview_url": "https://abrashov-remont.ru/blog/preview/c397ba7a6d7c/econom-komfort-komfort-plus-kak-vybrat/"
-    },
-    {
       "slug": "etapy-remonta-kvartiry-pod-klyuch",
       "path": "articles/etapy-remonta-kvartiry-pod-klyuch.md",
       "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
@@ -29,6 +21,12 @@
   ],
   "scheduled": [],
   "published": [
+    {
+      "slug": "econom-komfort-komfort-plus-kak-vybrat",
+      "title": "Эконом, Комфорт или Комфорт+: как выбрать пакет ремонта под вашу задачу",
+      "url": "https://abrashov-remont.ru/blog/econom-komfort-komfort-plus-kak-vybrat/",
+      "date": "2026-11-16"
+    },
     {
       "slug": "skolko-stoit-remont-pod-klyuch-spb",
       "title": "Сколько стоит ремонт квартиры под ключ в Санкт-Петербурге: считаем по метру",
