@@ -1,7 +1,32 @@
 {
   "site": "https://abrashov-remont.ru",
-  "updated": "2026-11-15",
-  "awaiting": [],
+  "updated": "2026-11-16",
+  "awaiting": [
+    {
+      "slug": "econom-komfort-komfort-plus-kak-vybrat",
+      "path": "articles/econom-komfort-komfort-plus-kak-vybrat.md",
+      "title": "Эконом, Комфорт или Комфорт+: как выбрать пакет ремонта под вашу задачу",
+      "description": "Чем отличаются пакеты ремонта Эконом, Комфорт и Комфорт+, для каких квартир подходит каждый и как выбрать по задаче и бюджету. Примеры расчёта по метру.",
+      "reading_time": "4 мин чтения",
+      "preview_url": "https://abrashov-remont.ru/blog/preview/c397ba7a6d7c/econom-komfort-komfort-plus-kak-vybrat/"
+    },
+    {
+      "slug": "etapy-remonta-kvartiry-pod-klyuch",
+      "path": "articles/etapy-remonta-kvartiry-pod-klyuch.md",
+      "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
+      "description": "Из каких этапов состоит ремонт квартиры под ключ: от демонтажа и инженерных работ до чистовой отделки. Порядок работ, зачем он нужен и где чаще ошибаются.",
+      "reading_time": "3 мин чтения",
+      "preview_url": "https://abrashov-remont.ru/blog/preview/f51ac68b39e6/etapy-remonta-kvartiry-pod-klyuch/"
+    },
+    {
+      "slug": "remont-novostroyki-i-vtorichki",
+      "path": "articles/remont-novostroyki-i-vtorichki.md",
+      "title": "Ремонт в новостройке и во вторичке: чем отличается объём работ и бюджет",
+      "description": "Чем отличается ремонт в новостройке и во вторичной квартире: объём работ, подготовка, на что смотреть до начала. Как это влияет на смету ремонта под ключ.",
+      "reading_time": "3 мин чтения",
+      "preview_url": "https://abrashov-remont.ru/blog/preview/d0c47ce9e84c/remont-novostroyki-i-vtorichki/"
+    }
+  ],
   "scheduled": [],
   "published": [
     {
