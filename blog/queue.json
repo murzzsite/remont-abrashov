@@ -1,21 +1,17 @@
 {
   "site": "https://abrashov-remont.ru",
   "updated": "2026-11-18",
-  "awaiting": [
-    {
-      "slug": "kak-proverit-smetu-na-remont-kvartiry",
-      "path": "articles/kak-proverit-smetu-na-remont-kvartiry.md",
-      "title": "Как проверить смету на ремонт квартиры: чек-лист на 10 вопросов",
-      "description": "Как проверить смету на ремонт квартиры до подписания договора: что должно быть в документе, какие строки вызывают вопросы и как сравнить два предложения.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://abrashov-remont.ru/blog/preview/68ea7a9cbf42/kak-proverit-smetu-na-remont-kvartiry/"
-    }
-  ],
+  "awaiting": [],
   "scheduled": [
     {
       "slug": "etapy-remonta-kvartiry-pod-klyuch",
       "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
       "date": "2026-11-23"
+    },
+    {
+      "slug": "kak-proverit-smetu-na-remont-kvartiry",
+      "title": "Как проверить смету на ремонт квартиры: чек-лист на 10 вопросов",
+      "date": "2026-12-07"
     },
     {
       "slug": "remont-novostroyki-i-vtorichki",
