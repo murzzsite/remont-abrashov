@@ -1,13 +1,8 @@
 {
   "site": "https://abrashov-remont.ru",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "awaiting": [],
   "scheduled": [
-    {
-      "slug": "etapy-remonta-kvartiry-pod-klyuch",
-      "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
-      "date": "2026-11-23"
-    },
     {
       "slug": "kak-proverit-smetu-na-remont-kvartiry",
       "title": "Как проверить смету на ремонт квартиры: чек-лист на 10 вопросов",
@@ -20,6 +15,12 @@
     }
   ],
   "published": [
+    {
+      "slug": "etapy-remonta-kvartiry-pod-klyuch",
+      "title": "Этапы ремонта квартиры под ключ: в каком порядке делают работы",
+      "url": "https://abrashov-remont.ru/blog/etapy-remonta-kvartiry-pod-klyuch/",
+      "date": "2026-11-23"
+    },
     {
       "slug": "econom-komfort-komfort-plus-kak-vybrat",
       "title": "Эконом, Комфорт или Комфорт+: как выбрать пакет ремонта под вашу задачу",
